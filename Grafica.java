@@ -233,7 +233,8 @@ public class Grafica extends Thread {
         try{
 //            System.out.println("Entro a ejercutar hilografica");
             if (orden==1) {
-    //            System.out.println("Entro al if 1");
+    //            System.out.println("Entro al if 1");  
+                //Ordenamiento Burbuja
                 if (tipoalgoritmo==1) {
                     
 //                    DefaultCategoryDataset dataset = new DefaultCategoryDataset();
@@ -438,7 +439,7 @@ public class Grafica extends Thread {
 //                        interfaz.minuto=0;
 
                 
-
+//                      QuickSort
                 }else if(tipoalgoritmo==2){
                     
                     int tamaño=based.getInstance().data.length;
@@ -457,7 +458,7 @@ public class Grafica extends Thread {
                     conteoaux=quicksortint(conteoaux, nombreaux);
                     
                     interfaz.iniciaHilo=false;
-
+//                  Shell Sort
                 }else{
                     
                     int tamaño=based.getInstance().data.length;
